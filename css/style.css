@@ -171,7 +171,7 @@ button:hover {
   background: linear-gradient(150deg, #e475ce, #219fff);
 }
 .card.reviews {
-  background: linear-gradient(20deg, #007619, #3aa62c);
+  background: linear-gradient(20deg, #007670, #55e941);
 }
 
 .card h3 {
@@ -246,4 +246,25 @@ img[alt="mockup"] {
     display: flex;
     flex-direction: row;
     gap: 100px;
+}
+
+input[type="button"] {
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 25px;
+  font-family: monospace;
+  transition: all 0.2s;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(13, 96, 179);
+  transform: scale(1.2) translateY(-10px);
+}
+
+input[type="button"]:active {
+  background-color: rgb(0, 80, 159);
+  transform: scale(0.9) translateY(-5px);
 }
