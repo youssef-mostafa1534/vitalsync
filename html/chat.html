@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutrition AI Chatbot</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script defer src="../js/script.js"></script>
+  </head>
+  <body id="bd">
+    <nav>
+      <img
+        src="../img/Group-3.png"
+        alt="logo"
+        width="200px"
+        style="border-radius: 50%"
+      />
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li>
+          <h1 style="margin-top: 0; margin-bottom: 0; color: #fff">HealthAI</h1>
+        </li>
+        <li><a href="#chat">Chat</a></li>
+      </ul>
+    </nav>
+
+    <section id="chat">
+      <h2>Chat with the AI</h2>
+      <div id="chat-container">
+        <div id="chat-box"></div>
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Type your message here..."
+        />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </section>
+  </body>
+</html>
